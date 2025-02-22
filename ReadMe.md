@@ -1,6 +1,6 @@
 # API Project 
 ## _This is a API Project follow the MVC Architecture._
-I used the DatabaseFirst Approach to create the database using Entiframework, and the scaffold command below is used to generate the dbcontext and models using DatabaseFirst. 
+I used the DatabaseFirst Approach to create the database using Entity Framework, and the scaffold command below is used to generate the dbcontext and models using DatabaseFirst. 
 
 Scaffold-DbContext 'server=localhost; port=3306; database=CYRPTODATABASE; user=root; password=password; Persist Security Info=False; Connect Timeout=300' Pomelo.EntityFrameworkCore.MySql -OutputDir Model -force
 ```
